@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://www.timeanddate.com/gfx/cd/new-year.png) ;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    color: white;
+   }
+   * {
+    box-sizing: border-box;
+}
+
+.header{
+    
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 0rem;
+}
+.countdown-container{
+    
+    text-align: center;
+    display: flex;
+   padding: 0rem 16.5rem;
+   font-size: larger;
+   flex-wrap: wrap;
+
+}
+.big-text{
+    font-weight: bolder;
+    padding: 0rem 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size:5rem ;
+    text-align: center;
+}
+.countdown-el{
+    text-align: center;
+    padding: 1rem;
+}
+.countdown-el span{
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    
+}
